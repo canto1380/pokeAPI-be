@@ -1,6 +1,7 @@
 import express from "express";
 import dotenv from 'dotenv'
 import morgan from "morgan";
+import bodyParser from "body-parser";
 
 const app = express()
 dotenv.config({path: '.env'})
